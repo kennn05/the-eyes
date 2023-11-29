@@ -1,23 +1,29 @@
 clear
 yes | termux-setup-storage > /dev/null 2>&1 && clear
-echo "--------------------------------------"
-echo "coded by : nsa739@Marvelaid"
-echo "--------------------------------------"
-echo "SANTAI DULU...."
-echo "MINUM KOPI DULU "
-echo "CHILL WHILE WAITING "
-echo "GO DRINK COFFEE , SCROLLING TIKTOK"
-echo "--------------------------------------"
-echo "Loading Please Wait....."
-echo "--------------------------------------"
+
+
+echo -e "\e[32m--------------------------------------"
+echo "          Coded by: Kenddy"
+echo "  Your biggest Enemy is your OWNSELF"
+echo -e "--------------------------------------"
+echo "            SANTAI DULU"
+echo "         MINUM KOPI DULUUU"
+echo "        CHILL WHILE WAITING"
+echo "   DRINK COFFEE, SCROLLING TIKTOK"
+echo -e "--------------------------------------"
+echo -e "    Loading Please Wait.........."
+echo -e "--------------------------------------"
 echo ""
+
+
+
 
 function print_bar() {
     local progress=$1
     local width=15
     local bar_width=$((progress * width / 100))
 
-    printf "\r[%-*s] %3d%%" "$width" "$(printf '%.0s' $(seq 20 "$bar_width"))" "$progress"
+    printf "\r[ Progress ] %3d%%" "$width" "$(printf '%.0s' $(seq 20 "$bar_width"))" "$progress"
 }
 
 print_bar 1
