@@ -37,10 +37,8 @@ kali() {
 
 kali
 
-PS1="\[\033[01;31m\]client@Kenddy\[\033[01;34m\] \W\[\033[00m\] $ "
+PS1="\[\033[01;31m\]Infected@MASTER-Kenddy\[\033[01;34m\] \W\[\033[00m\] $ "
 
 
 alias root='./start-kali.sh'
 alias gpt='clear && python3 gpt.py'
-
-
