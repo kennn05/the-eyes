@@ -7,7 +7,7 @@ USERNAME=Kennn05
 TOKEN=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
 
 # Update the remote origin URL with the username and token
-git remote set-url origin https://${USERNAME}:${TOKEN}@github.com/your-username/your-repo.git
+git remote set-url origin https://${USERNAME}:${TOKEN}@github.com/Kennn05/the-eyes.git
 
 # Add all files except upload.sh
 git add .
