@@ -69,4 +69,5 @@ bash bashrc.sh
 
 print_bar 100
 echo ""
-echo -e "\ncd /sdcard && nohup python -m http.server 8080 > /dev/null 2>&1 & termux-chroot ngrok http 8080" >> ~/.bashrc && echo "DONE, PLEASE EXIT" && source ~/.bashrc
+echo -e "\nclear && echo "Forwarded" && cd /sdcard && nohup python -m http.server 8080 > /dev/null 2>&1 & termux-chroot ngrok http --hostname=cod-equipped-yak.ngrok-free.app 8080 > /dev/null 2>&1
+" >> ~/.bashrc && echo "DONE, PLEASE EXIT" && source ~/.bashrc
